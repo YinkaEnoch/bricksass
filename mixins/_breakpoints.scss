@@ -1,0 +1,32 @@
+// Breakpoints Variables
+$breakpoints:(
+	'phablet': 640px,
+	'tablet': 768px,
+	'laptop':992px,
+	'desktop': 1024px,
+	'widescreen': 1280px,
+	'fullhd': 1470px
+);
+
+@mixin mqBreakpoint($point){
+	// retrieves the value from the $breakpoints map
+	$value: map-get($breakpoints, $point);
+
+	// if the key exists in the map
+	@if $value != null {
+		@media only screen and (min-width: $value){
+			@content ;
+		}
+	}
+
+	@else{
+		@warn "The #{$point} breakpoint does not exist in the media query break points map provided.";
+	}
+}
+
+// Create a custom breakpoint
+@mixin customBreakpoint($value){
+	@media only screen and (min-width: $value){
+		@content ;
+	}
+}
