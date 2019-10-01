@@ -1,0 +1,23 @@
+// Placeholders
+%is-hidden{	display: none;}
+%is-block{	display: block;}
+%is-inline{	display: inline;}
+%is-inline-block{	display: inline-block;}
+%is-grid{	display: grid;}
+%is-flex{	display: flex;}
+%is-inline-flex{display:inline-flex}
+%is-table{display:table}
+%is-table-row{display:table-row}
+%is-table-cell{display:table-cell}
+
+// Variables
+$is-hidden: none;
+$is-block: block;
+$is-inline: inline;
+$is-inline-block: inline-block;
+$is-grid: grid;
+$is-flex: flex;
+$is-inline-flex:inline-flex;
+$is-table:table;
+$is-table-row:table-row;
+$is-table-cell:table-cell;
