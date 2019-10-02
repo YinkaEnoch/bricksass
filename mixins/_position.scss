@@ -1,0 +1,31 @@
+@mixin createPosition($position, $coordinates, $sizes){
+	position: $position;
+	
+	// Specify Coordinates
+	// Top
+	@if (nth($coordinates, 1)){
+		top:nth($coordinates, 1);
+	}
+	// Right
+	@if (nth($coordinates, 2)){
+		right: nth($coordinates, 2);
+	}
+	// Bottom
+	@if (nth($coordinates, 3)){
+		bottom: nth($coordinates, 3);
+	}
+	// Left
+	@if (nth($coordinates, 4)){
+		left:nth($coordinates, 4);
+	}
+
+	// specify width and height 
+	// Width
+	@if (nth($sizes, 1)){
+		width: nth($sizes, 1);
+	}
+	// height
+	@if (nth($sizes, 2)){
+		height: nth($sizes, 2);
+	}
+}

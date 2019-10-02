@@ -1,0 +1,13 @@
+// Variables
+$is-absolute: absolute;
+$is-fixed: fixed;
+$is-relative: relative;
+$is-static: static;
+$is-sticky: sticky;
+
+// Placeholders
+%is-absolute{position: absolute;}
+%is-fixed{position: fixed;}
+%is-relative{position: relative;}
+%is-static{position: static;}
+%is-sticky{position: sticky;}
