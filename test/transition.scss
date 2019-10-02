@@ -1,0 +1,14 @@
+@import '../mixins/transition';
+
+.box{
+	@include singleTransition($duration:2s, $delay:1s);
+}
+
+
+$height : 100px;
+$width: $height;
+
+.box2{
+	width: $width;
+	height: $height;
+}

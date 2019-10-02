@@ -1,0 +1,13 @@
+// Single Transition - it can take more than one property
+@mixin singleTransition($property: all, $duration: .25s, $t-function: ease, $delay:0){
+	
+	@if (type-of($property) == list){
+		$propList: ();
+		@each $prop in $property{
+			$propList: append($propList, unquote("#{$prop},"));
+		}
+		transition: $propList $duration $t-function $delay;
+	} @else{
+		transition: $property $duration $t-function $delay;
+	}
+}

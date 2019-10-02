@@ -1,0 +1,6 @@
+@import '../mixins/position';
+
+.box{
+	@include createPosition(absolute, 90 45 65 12, 50% 30%);
+	width: 34px;
+}
