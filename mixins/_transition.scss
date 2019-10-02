@@ -1,5 +1,5 @@
-// Single Transition - it can take more than one property
-@mixin singleTransition($property: all, $duration: .25s, $t-function: ease, $delay:0){
+// Create Transition - it can take more than one property
+@mixin createTransition($property: all, $duration: .25s, $t-function: ease, $delay:0){
 	
 	@if (type-of($property) == list){
 		$propList: ();

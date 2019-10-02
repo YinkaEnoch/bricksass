@@ -1,5 +1,13 @@
 @import '../mixins/transition';
 
 .box{
-	@include singleTransition($duration:2s, $delay:1s);
+	@include createTransition($duration:2s, $delay:1s);
+}
+
+.box2{
+	@include createTransition(border-radius, $delay:1s);
+}
+
+.box4{
+	@include createTransition(color padding opacity, $duration:2s, $delay:1s, $t-function:linear);
 }
