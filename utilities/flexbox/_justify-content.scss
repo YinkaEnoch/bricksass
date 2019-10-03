@@ -1,0 +1,13 @@
+// Placeholders
+%justify-start{justify-content: flex-start;}
+%justify-end{justify-content: flex-end;}
+%justify-center{justify-content: center;}
+%justify-between{justify-content: space-between;}
+%justify-around{justify-content: space-around;}
+
+// Variables
+$justify-start:   flex-start;
+$justify-end:     flex-end;
+$justify-center:  center;
+$justify-between: space-between;
+$justify-around:  space-around;
