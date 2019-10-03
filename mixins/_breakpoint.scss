@@ -1,11 +1,12 @@
 // Breakpoints Variables
+// I decide to 'outgrow' every min-screen by 2px
 $breakpoints:(
-	'phablet': 640px,
-	'tablet': 768px,
-	'laptop':992px,
-	'desktop': 1024px,
-	'widescreen': 1280px,
-	'fullhd': 1470px
+	'phablet': 642px,
+	'tablet': 770px,
+	'laptop':994px,
+	'desktop': 1026px,
+	'widescreen': 1282px,
+	'fullhd': 1472px
 );
 
 @mixin mqBreakpoint($point){

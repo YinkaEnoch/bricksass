@@ -4,19 +4,19 @@
 %w-5{width: 5%;}
 %w-10{width: 10%;}
 %w-15{width: 15%;}
-%w-20, %1-5{width: 20%;}
-%w-25, %1-4, %3-12{width: 25%;}
+%w-20, %oneByFive{width: 20%;}
+%w-25, %oneByFour, %threeByTwelve{width: 25%;}
 %w-30{width: 30%;}
 %w-35{width: 35%;}
-%w-40, %2-5{width: 40%;}
+%w-40, %twoByFive{width: 40%;}
 %w-45{width: 45%;}
-%w-50, %2-4, %3-6, %6-12{width: 50%;}
+%w-50, %twoByFour, %threeBySix, %sixByTwelve{width: 50%;}
 %w-55{width: 55%;}
-%w-60, 3-5{width: 60%;}
+%w-60, %threeByFive{width: 60%;}
 %w-65{width: 65%;}
 %w-70{width: 70%;}
-%w-75, %3-4, %9-12{width: 75%;}
-%w-80, %4-5{width: 80%;}
+%w-75, %threeByFour, %nineByTwelve{width: 75%;}
+%w-80, %fourByFive{width: 80%;}
 %w-85{width: 85%;}
 %w-90{width: 90%;}
 %w-95{width: 95%;}
@@ -24,14 +24,14 @@
 %w-max{max-width: 100%;}
 
 // Grids
-%1-12{width: 8.333333%;}
-%1-6, %2-12{width: 16.666667%;}
-%1-3, %2-6, %4-12{width: 33.333333%;}
-%5-12{width: 41.666667%;}
-%2-3, %4-6, %8-12{width: 66.666667%;}
-%7-12{width: 58.333333%;}
-%5-6, %10-12{width: 83.333333%;}
-%11-12{width: 91.666667%;}                                                                      
+%oneByTwelve{width: 8.333333%;}
+%oneBySix, %twoByTwelve{width: 16.666667%;}
+%oneByThree, %twoBySix, %fourByTwelve{width: 33.333333%;}
+%fiveByTwelve{width: 41.666667%;}
+%twoByThree, %fourBySix, %eightByTwelve{width: 66.666667%;}
+%sevenByTwelve{width: 58.333333%;}
+%fiveBySix, %tenByTwelve{width: 83.333333%;}
+%oneByTwelve{width: 91.666667%;}                                                                      
 
 
 //---------------------------------------------------
@@ -44,39 +44,39 @@ $w-10: 10%;
 $w-15: 15%;
 
 $w-20: 20%;
-$1-5: 20%;
+$oneByFive: 20%;
 
 $w-25: 25%;
-$1-4: 25%;
-$3-12: 25%;
+$oneByFour: 25%;
+$threeByTwelve: 25%;
 
 $w-30: 30%;
 $w-35: 35%;
 
 $w-40: 40%;
-$2-5: 40%;
+$twoByFive: 40%;
 
 $w-45: 45%;
 
 $w-50: 50%;
-$2-4: 50%;
-$3-6: 50%;
-$6-12: 50%;
+$twoByFour: 50%;
+$threeBySix: 50%;
+$sixByTwelve: 50%;
 
 $w-55: 55%;
 
 $w-60: 60%; 
-$3-5: 60%;
+$threeByFive: 60%;
 
 $w-65: 65%;
 $w-70: 70%;
 
 $w-75: 75%;
-$3-4: 75%;
-$9-12: 75%;
+$threeByFour: 75%;
+$nineByTwelve: 75%;
 
 $w-80:80%;
-$4-5: 80%;
+$fourByFive: 80%;
 
 $w-85: 85%;
 $w-90: 90%;
@@ -85,24 +85,24 @@ $w-100: 100%;
 $w-max: 100%;
 
 // Grids
-$1-12: 8.333333%;
+$oneByTwelve: 8.333333%;
 
-$1-6: 16.666667%;
-$2-12: 16.666667%;
+$oneBySix: 16.666667%;
+$twoByTwelve: 16.666667%;
 
-$1-3: 33.333333%; 
-$2-6: 33.333333%; 
-$4-12: 33.333333%;
+$oneByThree: 33.333333%; 
+$twoBySix: 33.333333%; 
+$fourByTwelve: 33.333333%;
 
-$5-12: 41.666667%;
+$fiveByTwelve: 41.666667%;
 
-$2-3:66.666667%;
-$4-6:66.666667%;
-$8-12: 66.666667%;
+$twoByThree:66.666667%;
+$fourBySix:66.666667%;
+$eightByTwelve: 66.666667%;
 
-$7-12: 58.333333%;
+$sevenByTwelve: 58.333333%;
 
-$5-6:83.333333%;
-$10-12: 83.333333%;
+$fiveBySix:83.333333%;
+$tenByTwelve: 83.333333%;
 
-$11-12: 91.666667%;
+$oneByTwelve: 91.666667%;

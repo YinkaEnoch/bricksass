@@ -1,7 +1,11 @@
 // Folders
-@import 'font';
-@import 'text';
+@import 'font/index';
+@import 'text/index';
 
 // Files
 @import 'display';
+@import 'height';
 @import 'position';
+@import 'resize';
+@import 'width';
+@import 'word-break';
