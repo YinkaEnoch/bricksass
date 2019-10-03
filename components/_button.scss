@@ -1,0 +1,37 @@
+@import '../utilities/font/index';
+@import '../utilities/text/index';
+@import '../utilities/display';
+@import '../utilities/width';
+
+%btn{
+	@extend %is-inline-block,%text-center,%no-underline;
+	padding: 1em;
+	cursor: pointer;
+	border:none;
+	outline:none;
+	font:{
+		weight: $font-weight-normal;
+		size:$size-6;
+	}
+	user-select:none;
+}
+
+%btn-pill{
+	@extend %btn;
+	border-radius: 5rem;
+	border:2px solid transparent;
+}
+
+%btn-sm{
+	@extend %btn;
+	padding: 0.75rem;
+}
+
+%btn-lg{
+	@extend %btn;
+	padding: 2rem;
+}
+
+%btn-block{
+	@extend %btn,%w-100,%is-block;
+}

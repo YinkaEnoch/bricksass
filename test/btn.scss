@@ -1,0 +1,9 @@
+@import '../components/index';
+
+.btn{
+	@extend %btn;
+}
+
+.btn-pill{
+	@extend %btn-pill;
+}
