@@ -1,4 +1,4 @@
-@mixin createPosition($position, $coordinates, $sizes){
+@mixin createPosition($position, $coordinates, $sizes, ){
 	position: $position;
 	
 	// Specify Coordinates

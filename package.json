@@ -3,20 +3,18 @@
   "version": "1.0.0",
   "description": "A SCSS utility library for creating seemless CSS rules",
   "main": "_index.scss",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinkaenoch/bricksass"
   },
-  "repository":{
-    "type":"git",
-    "url":"git+https://github.com/yinkaenoch/bricksass"
+  "bugs": {
+    "url": "https://github.com/yinkaenoch/bricksass/issues"
   },
-  "bugs":{
-    "url":"https://github.com/yinkaenoch/bricksass/issues"
-  }
   "keywords": [
     "BrickSASS",
     "SCSS utility library",
-    "SASS utility library",
+    "SASS utility library"
   ],
   "author": "Yinka Enoch Adedokun",
   "license": "MIT"
